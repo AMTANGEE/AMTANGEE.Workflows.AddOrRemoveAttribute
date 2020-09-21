@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using AMTANGEE.SDK.Messages;
 
-namespace Workflow_Newsletter
+namespace Workflow.AddOrRemoveAttribute
 {
     public class Plugin : AMTANGEE.Workflow.IMessages
     {

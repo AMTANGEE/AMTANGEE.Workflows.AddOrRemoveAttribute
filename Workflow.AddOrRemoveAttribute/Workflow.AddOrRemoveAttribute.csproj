@@ -7,10 +7,11 @@
     <ProjectGuid>{E91DAA9A-4EC1-4D98-B098-AF208CA6A8A3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Workflow_Newsletter</RootNamespace>
-    <AssemblyName>Workflow_Newsletter</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <RootNamespace>Workflow.AddOrRemoveAttribute</RootNamespace>
+    <AssemblyName>Workflow.AddOrRemoveAttribute</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -20,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -28,6 +30,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
@@ -36,8 +39,9 @@
     <AssemblyOriginatorKeyFile>AMTANGEE_Partner.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AMTANGEE.SDK">
-      <HintPath>..\..\..\..\Program Files (x86)\AMTANGEE\AMTANGEE.SDK.dll</HintPath>
+    <Reference Include="AMTANGEE.SDK, Version=6.0.0.0, Culture=neutral, PublicKeyToken=a6052a4e2ab7d026, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files (x86)\AMTANGEE6\AMTANGEE.SDK.dll</HintPath>
     </Reference>
     <Reference Include="AMTANGEE.Workflow.Interfaces">
       <HintPath>..\..\..\..\Program Files (x86)\AMTANGEE® Workflow Service\AMTANGEE.Workflow.Interfaces.DLL</HintPath>
