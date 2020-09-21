@@ -6,7 +6,7 @@ If the email subject starts with 'Subscribe:' followed by a guid or name, the pl
 ## Requirements
 
 * AMTANGEE Partner Key for signing the assembly
-* .NET Framework 3.5
+* .NET Framework 4.6.1
 * AMTANGEE Workflow Service
 
 ## Feedback

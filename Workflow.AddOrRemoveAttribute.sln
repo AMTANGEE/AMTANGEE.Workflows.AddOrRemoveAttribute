@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow_AddOrRemoveAttribute", "Workflow_AddOrRemoveAttribute\Workflow_AddOrRemoveAttribute.csproj", "{E91DAA9A-4EC1-4D98-B098-AF208CA6A8A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow.AddOrRemoveAttribute", "Workflow.AddOrRemoveAttribute\Workflow.AddOrRemoveAttribute.csproj", "{E91DAA9A-4EC1-4D98-B098-AF208CA6A8A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64DE1FE6-6E71-47AB-BCD2-19C2ABB57D4A}
 	EndGlobalSection
 EndGlobal
